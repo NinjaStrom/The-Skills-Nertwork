@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+  <class name="vo.formComponentVO" table="Registration_details">
+   
+   	<id name="registrationID" type="int" column="Registration_ID" >
+   		<generator class="increment"/>
+  	</id>
+
+  	<property name="companyName">
+   		<column name="Company_Name" />
+  	</property>
+  	
+  	<property name="isindividual">
+  		<column name="Is_Individual"/>
+  	</property>
+
+  	<property name="registeredWith">
+  		<column name="Registered_With"/>
+  	</property>
+  	  
+  	  <property name="serviceType">
+   		<column name="Service_Type" />
+  	</property>
+  	
+  	<property name="country">
+  		<column name="country"/>
+  	</property>
+
+  	<property name="state">
+  		<column name="state"/>
+  	</property>
+
+	
+
+  	<property name="address">
+   		<column name="address" />
+  	</property>
+  	
+  	<property name="city">
+  		<column name="city"/>
+  	</property>
+
+  	<property name="zipCode">
+  		<column name="Zip_Code"/>
+  	</property>
+  	  
+  	  <property name="websiteUrl">
+   		<column name="Website_Url" />
+  	</property>
+  	
+  	<property name="contactPerson">
+  		<column name="Contact_Person"/>
+  	</property>
+
+  	<property name="emailId">
+  		<column name="Email_Id"/>
+  	</property>
+  	  
+  	  
+
+  	<property name="contactNumber">
+   		<column name="Contact_Number" />
+  	</property>
+  	
+  	<property name="creditLimit">
+  		<column name="Credit_Limit"/>
+  	</property>
+
+  	<property name="criticalBalance">
+  		<column name="Critical_Balance"/>
+  	</property>
+  	  
+  	  <property name="blackListed">
+   		<column name="Black_Listed" />
+  	</property>
+  	
+  	<property name="vip">
+  		<column name="VIP"/>
+  	</property>
+
+  	<property name="currency">
+  		<column name="Currency"/>
+  	</property>
+
+	
+
+  	<property name="supportEmail">
+   		<column name="Support_Email" />
+  	</property>
+  	
+  	<property name="billingCycle">
+  		<column name="Billing_Cycle"/>
+  	</property>
+
+  	<property name="timeZone">
+  		<column name="Time_Zone"/>
+  	</property>
+  	  
+  	  <property name="invoiceNotification">
+   		<column name="Invoice_Notification" />
+  	</property>
+  	
+  	<property name="billingEmail">
+  		<column name="Billing_Email"/>
+  	</property>
+
+  	<property name="ratePlan">
+  		<column name="Rate_Plan"/>
+  	</property>
+
+  	
+  	<property name="rateNotification">
+  		<column name="Rate_Notification"/>
+  	</property>
+
+  	<property name="rateEmail">
+  		<column name="Rate_Email"/>
+  	</property>
+  	    	    	  
+ </class>
+</hibernate-mapping>
